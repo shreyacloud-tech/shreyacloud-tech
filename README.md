@@ -1,6 +1,6 @@
 # Hi, I'm Shreya 👋
 
-### Cloud & DevOps Enthusiast | Python Developer | AWS | Docker | Kubernetes | Terraform
+### Cloud & DevOps Engineer | AWS | Kubernetes | Terraform | Python
 
 I'm an Information Technology graduate passionate about **Cloud Computing, DevOps, automation, and scalable infrastructure**.
 
@@ -24,23 +24,27 @@ I enjoy building practical projects that combine programming with cloud and DevO
 
 ## 🛠️ Technical Skills
 
-### ☁️ Cloud
+### ☁️ Cloud & AWS
 - AWS
 - EC2
 - S3
 - VPC
 - IAM
-- AWS 3-Tier Architecture
+- RDS
+- Application Load Balancer
+- Auto Scaling
+- CloudWatch
 
 ### ⚙️ DevOps & Infrastructure
 - Linux
-- Git
-- GitHub
+- Git & GitHub
 - Docker
 - Kubernetes
 - Terraform
+- Ansible
 - Jenkins
 - GitHub Actions
+- CI/CD
 
 ### 📊 Monitoring & Observability
 - Prometheus
@@ -48,16 +52,11 @@ I enjoy building practical projects that combine programming with cloud and DevO
 - System Monitoring
 - Log Analysis
 
-### 🐍 Programming
+### 🐍 Programming & Automation
 - Python
-- Java
-- HTML
-- CSS
-- JavaScript
 
 ### 🔧 Tools
 - Visual Studio Code
-- GitHub
 - Docker Desktop
 - Linux Terminal
 
@@ -66,64 +65,93 @@ I enjoy building practical projects that combine programming with cloud and DevO
 ## 📌 Featured Projects
 
 ### ☁️ AWS 3-Tier Architecture
-Designed and documented a scalable AWS 3-tier architecture demonstrating the separation of presentation, application and database layers.
 
-**Technologies:** AWS | VPC | EC2 | Architecture Design
+Designed a scalable and highly available AWS 3-tier architecture with separate presentation, application and database layers.
 
----
+- Designed VPC networking with public and private subnets, route tables and Internet Gateway.
+- Implemented Application Load Balancer, EC2 and Auto Scaling for the application layer.
+- Used Security Groups to control traffic between the load balancer, application and database layers.
+- Designed the database layer using Amazon RDS in private subnets.
+- Applied multi-AZ architecture concepts for high availability.
+
+**Technologies:** AWS | VPC | EC2 | Application Load Balancer | Auto Scaling | RDS | Security Groups
+
+
+### ☸️ Kubernetes Web Application
+
+Deployed a containerized Nginx web application on a local Kubernetes cluster using Minikube.
+
+- Created a Kubernetes Deployment with 2 replicas.
+- Exposed the application using a NodePort Service.
+- Defined Kubernetes resources using YAML manifests.
+- Managed the application using kubectl commands.
+
+**Technologies:** Kubernetes | Minikube | Docker | Nginx | YAML | Deployment | Service | NodePort
+
+
+### 🏗️ Terraform Infrastructure Automation
+
+Practiced Infrastructure as Code by defining and provisioning AWS infrastructure using Terraform.
+
+- Worked with Terraform configuration files for infrastructure definition.
+- Practiced the Terraform workflow using terraform init, terraform plan and terraform apply.
+- Applied Infrastructure as Code principles for repeatable infrastructure deployment.
+
+**Technologies:** Terraform | AWS | HCL | Infrastructure as Code
+
+
+### 📊 Cloud Monitoring & Observability
+
+Implemented a containerized monitoring setup using Prometheus and Grafana.
+
+- Collected and analyzed system metrics using Prometheus.
+- Created Grafana dashboards to visualize monitoring data.
+- Practiced metrics collection and performance monitoring for system health visibility.
+
+**Technologies:** Prometheus | Grafana | Docker | Linux
+
 
 ### 🐳 Docker Web Application
+
 Containerized a web application using Docker and created a reproducible application environment.
 
 **Technologies:** Docker | HTML | Containerization
 
----
-
-### ☸️ Kubernetes Web Application
-Deployed and managed a containerized web application using Kubernetes concepts and resources.
-
-**Technologies:** Kubernetes | Docker | Containers
-
----
-
-### 🏗️ Terraform Infrastructure Project
-Practiced Infrastructure as Code by defining and managing cloud infrastructure using Terraform.
-
-**Technologies:** Terraform | HCL | Infrastructure as Code
-
----
 
 ### 📊 Server Log Monitor
-Built a Python-based server log monitoring application that analyzes server logs and reports important events.
 
-Implemented containerization using Docker and automated validation using GitHub Actions CI.
+Built a Python-based server log monitoring application to analyze logs and identify important events.
+
+- Implemented log analysis using Python.
+- Containerized the application using Docker.
+- Automated validation using GitHub Actions CI.
 
 **Technologies:** Python | Docker | GitHub Actions | CI
 
----
 
 ### 💻 System Health Monitor
-Built a Python-based system monitoring application for checking system information and health-related metrics.
+
+Built a Python-based system monitoring application to check system information and health-related metrics.
 
 **Technologies:** Python | Docker | GitHub Actions
 
----
 
 ### 📁 File Log Analyzer
+
 Created a Python-based log analysis application to process log files and identify important information, warnings and errors.
 
 **Technologies:** Python | File Handling | Log Analysis
 
----
 
 ### 🎓 Student Management System
+
 Developed a Python-based command-line student management application with data persistence.
 
 **Technologies:** Python | JSON | File Handling
 
----
 
 ### 💰 Expense Tracker
+
 Developed a Python application for managing and tracking personal expenses.
 
 **Technologies:** Python | File Handling
@@ -133,17 +161,17 @@ Developed a Python application for managing and tracking personal expenses.
 ## 📚 Currently Learning
 
 - Advanced Python for Cloud & DevOps
-- Cloud Architecture
-- CI/CD Automation
 - Kubernetes
+- CI/CD Automation
 - Infrastructure as Code
 - Cloud Monitoring & Observability
+- Cloud Architecture
 - Scalable Cloud Applications
-- AI in the Cloud
 
 ---
 
 ## 📈 My Cloud & DevOps Journey
+
 
 ```text
 Linux
@@ -164,15 +192,18 @@ Prometheus & Grafana
   ↓
 Cloud & DevOps Projects
 
+
 🎯 Career Goal
 
-My goal is to build a career in Cloud Computing, DevOps and Cloud Infrastructure, where I can apply my technical knowledge to build, automate, monitor and improve reliable cloud-based systems.
 
-I am particularly interested in opportunities where I can continue learning while contributing to real-world engineering projects.
+My goal is to build a career in Cloud Computing and DevOps, where I can apply my knowledge of cloud infrastructure, automation, containerization, monitoring and Infrastructure as Code to real-world engineering projects.
 
-📫 Connect With Me
-💼 LinkedIn: Coming soon
-📧 Email: Available upon request
-💻 GitHub: shreyacloud-tech
+I am particularly interested in entry-level opportunities where I can continue developing my technical skills while contributing to reliable, scalable and automated cloud environments.
+
+## 📫 Connect With Me
+
+💼 LinkedIn: https://www.linkedin.com/in/shreyasalla/  
+📧 Email: shreyasallas@gmail.com  
+💻 GitHub: https://github.com/shreyacloud-tech
 
 ⭐ Thanks for visiting my profile!
